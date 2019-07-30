@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    cursor: pointer;
+}
+
+img[alt="family_pic"]{
+    display: block;
+    margin: 0;
+    /* add auto to margin like margin: o auto; to make it in center */
+    width: 70%;
+}
+
+span {
+    position: relative;
+    /* change the position with other than relative and check which fits */
+    left: 40%;
+    top: 30px;
+    line-height: 30px;
+}
+
+div {
+    padding: 12px;
+}
+
+div#second {
+    position: sticky;
+    top: 0;
+    background-color: #4efe3e;
+}
+
+/* add a margin: 10px 0; to h3, ul */
+
+p {
+    text-align: justify;
+    /* add text-indent and see what value fits */
+}
+
+div#second h2 {
+    text-align: right;
+    /* add letter-spacing and see what fits normally 2-4px */
+}
+
+/* remove # and add . so that it selects the class not the id */
+div#not_second {
+    background-color: whitesmoke;
+}
