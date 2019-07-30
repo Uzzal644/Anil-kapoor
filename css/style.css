@@ -48,3 +48,8 @@ div#second h2 {
 div#not_second {
     background-color: whitesmoke;
 }
+h1{
+    text-align: center;
+    font-family: elephant;
+    color: #1a6ead;
+}
