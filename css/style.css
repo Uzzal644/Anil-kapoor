@@ -9,16 +9,15 @@ img {
 
 img[alt="family_pic"]{
     display: block;
-    margin: 0;
-    /* add auto to margin like margin: o auto; to make it in center */
+    margin: auto;
     width: 70%;
 }
 
 span {
-    position: relative;
-    /* change the position with other than relative and check which fits */
-    left: 40%;
-    top: 30px;
+    position: absolute;
+    
+    left: 35%;
+    top: 50px;
     line-height: 30px;
 }
 
@@ -32,19 +31,24 @@ div#second {
     background-color: #4efe3e;
 }
 
-/* add a margin: 10px 0; to h3, ul */
-
 p {
     text-align: justify;
-    /* add text-indent and see what value fits */
+    text-indent: 50px;
+    
 }
 
 div#second h2 {
     text-align: right;
-    /* add letter-spacing and see what fits normally 2-4px */
+    letter-spacing: 6px;
+    
 }
 
-/* remove # and add . so that it selects the class not the id */
-div#not_second {
-    background-color: whitesmoke;
+
+div.not_second {
+    background-color: yellow;
+}
+h3,ul{
+    margin: 20px;
+    color: blue
+    ;
 }
