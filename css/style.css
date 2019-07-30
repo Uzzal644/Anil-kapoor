@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: sans-serif;
+    font-family: cursive;
 }
 
 img {
@@ -14,8 +14,7 @@ img[alt="family_pic"]{
 }
 
 span {
-    position: absolute;
-    
+    position: absolute;    
     left: 35%;
     top: 50px;
     line-height: 30px;
@@ -28,27 +27,35 @@ div {
 div#second {
     position: sticky;
     top: 0;
-    background-color: #4efe3e;
+    background-color: rgba(0,0,0,0.5);
 }
+
 
 p {
     text-align: justify;
     text-indent: 50px;
+
     
 }
 
 div#second h2 {
     text-align: right;
     letter-spacing: 6px;
-    
 }
 
 
-div.not_second {
-    background-color: yellow;
+
+div#not_second {
+    background-color: whitesmoke;
 }
-h3,ul{
-    margin: 20px;
-    color: blue
-    ;
+
+h1{
+    text-align: center;
+    font-family: elephant;
+    color: #1a6ead;
 }
+
+/* h3, ul {
+    margin: 10px 0;
+ } */
+
