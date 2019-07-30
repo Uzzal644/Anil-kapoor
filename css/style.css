@@ -9,16 +9,14 @@ img {
 
 img[alt="family_pic"]{
     display: block;
-    margin: 0;
-    
+    margin: auto;
     width: 70%;
 }
 
 span {
-    position: relative;
-    
-    left: 40%;
-    top: 30px;
+    position: absolute;    
+    left: 35%;
+    top: 50px;
     line-height: 30px;
 }
 
@@ -33,16 +31,18 @@ div#second {
 }
 
 
-
 p {
     text-align: justify;
+    text-indent: 50px;
+
     
 }
 
 div#second h2 {
     text-align: right;
-    
+    letter-spacing: 6px;
 }
+
 
 
 div#not_second {
